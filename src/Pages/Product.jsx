@@ -133,7 +133,6 @@ const Product = () => {
                     <FaPlus />
                   </button>
                 </div>
-               
               </div>
               <div className="flex items-center mt-4">
                 <button
@@ -142,7 +141,6 @@ const Product = () => {
                 >
                   <FaBagShopping className="inline-block mr-2" /> Add to cart
                 </button>
-                
               </div>
             </div>
           </div>
