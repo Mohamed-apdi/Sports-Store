@@ -51,7 +51,7 @@ const CheckoutPage = () => {
           {cart.map((item) => (
             <li
               key={item.id}
-              className="flex justify-between items-center mb-4"
+              className="flex justify-between items-center mb-4 "
             >
               <div className="flex items-center space-x-4">
                 <img

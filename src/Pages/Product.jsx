@@ -55,14 +55,14 @@ const Product = () => {
   return (
     <>
       <motion.section
-        className="container max-w-screen-xl h-auto py-4 px-6 pt-24"
+        className="container h-auto py-4 px-6 pt-24"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
         exit={{ opacity: 0, y: -50 }}
         viewport={{ once: true }}
       >
-        <div className="h-screen max-w-screen-xl flex justify-around items-center">
+        <div className="h-screen flex justify-around items-center">
           <div className="w-[45%] h-auto">
             <div className="flex flex-col gap-y-3 h-[600px] mx-auto">
               <div className="big-one pt-8">

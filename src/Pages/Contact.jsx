@@ -6,7 +6,7 @@ import { IoPaperPlaneOutline } from "react-icons/io5";
 const Contact = () => {
   return (
     <>
-      <motion.section className="pt-20 pb-6 container max-w-screen-2xl flex px-10">
+      <motion.section className="pt-20 pb-6 container flex px-10">
         <div className="h-[630px] w-1/2  border-l-0 border-r-2 border-b-2 border-gray-200 flex flex-col pt-10 items-start">
           <h1 className="text-[40px] text-dark font-bold">Contact Us</h1>
           <p className="mt-2 text-darkGray">

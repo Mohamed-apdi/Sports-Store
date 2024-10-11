@@ -55,7 +55,7 @@ const Home = () => {
   return (
     <>
       <motion.section
-        className="container max-w-screen-xl py-3 px-6 flex gap-4 pt-24"
+        className="container  py-3 px-6 flex gap-4 pt-24"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -119,7 +119,7 @@ const Home = () => {
       </motion.section>
 
       <motion.section
-        className="container max-w-screen-xl py-3 px-6"
+        className="container  py-3 px-6"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -164,7 +164,7 @@ const Home = () => {
         </div>
       </motion.section>
 
-      <div className="container max-w-screen-xl p-4 px-6 flex items-center justify-between">
+      <div className="container  p-4 px-6 flex items-center justify-between">
         <p className="text-3xl text-black font-bold">New Features</p>
         <button
           className="bg-primary text-white font-bold hover:bg-primary/90 px-5 py-2 rounded-lg text-lg border border-white"
@@ -175,7 +175,7 @@ const Home = () => {
       </div>
 
       <motion.section
-        className="container max-w-screen-xl px-6 py-2"
+        className="container  px-6 py-2"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
@@ -238,7 +238,7 @@ const Home = () => {
       </motion.section>
 
       <motion.section
-        className="container px-6 py-4 max-w-screen-xl"
+        className="container px-6 py-4 "
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
